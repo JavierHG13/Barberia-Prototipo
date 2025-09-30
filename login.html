@@ -17,15 +17,12 @@
                 <li><a href="productos.html">Productos</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
-
                 <li><a href="login.html">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
 
-
     <div class="container">
-
         <form onsubmit="simularLogin(event)" class="form">
             <h2>Iniciar Sesión</h2>
 
@@ -36,11 +33,12 @@
             <input type="password" id="password" required>
 
             <button type="submit">Ingresar</button>
+
+            <p>¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a></p>
         </form>
         <p id="login-msg"></p>
         
     </div>
-
 
     <footer>
         <p>&copy; 2025 Barbería Carlyn. Todos los derechos reservados.</p>
@@ -53,8 +51,5 @@
             setTimeout(() => window.location.href = "servicios.html", 1500);
         }
     </script>
-
 </body>
-
-
 </html>
